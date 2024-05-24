@@ -1,6 +1,13 @@
 body {
-  background-color: rgb(48, 3, 48, 0.2);
+  /* background-color: rgb(48, 3, 48, 0.2); */
+  background-image: url("../src/images/mountains.jpg");
+  background-size: cover; /* Adjusts the image to cover the entire background */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
   font-family: "Briem Hand", cursive, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 a {
   color: rgb(48, 3, 48, 0.6);
