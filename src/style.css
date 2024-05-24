@@ -11,7 +11,10 @@ body {
   border-radius: 16px;
   padding: 30px;
 }
-
+header {
+  border-bottom: 1px solid rgb(48, 3, 48, 0.2);
+  padding: 0 0 30px 0;
+}
 .search-form-input {
   background-color: rgb(48, 3, 48, 0.2);
   border: none;
@@ -28,4 +31,12 @@ body {
   color: white;
   margin-left: 5px;
   font-size: 16px;
+}
+
+footer {
+  border-top: 1px solid rgb(48, 3, 48, 0.2);
+  padding: 30px 0 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: rgb(48, 3, 48, 0.5);
 }
