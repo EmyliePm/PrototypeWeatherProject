@@ -38,6 +38,11 @@ header {
   display: flex;
   justify-content: space-between;
 }
+.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
 footer {
   border-top: 1px solid rgb(48, 3, 48, 0.2);
   padding: 30px 0 0 0;
