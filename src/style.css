@@ -5,7 +5,7 @@ body {
 a {
   color: rgb(48, 3, 48, 0.6);
 }
-.main-app {
+.weather-app {
   background: white;
   max-width: 600px;
   margin: 45px auto;
