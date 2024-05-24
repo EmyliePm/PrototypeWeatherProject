@@ -17,6 +17,21 @@ header {
   border-bottom: 1px solid rgb(48, 3, 48, 0.2);
   padding: 0 0 30px 0;
 }
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-icon {
+  font-size: 44px;
+  margin-top: 40px;
+}
+.weather-app-temperature-value {
+  font-size: 88px;
+  margin-left: 10px;
+}
+.weather-app-temperature-unit {
+  margin-top: 30px;
+  font-size: 28px;
+}
 .search-form-input {
   background-color: rgb(48, 3, 48, 0.2);
   border: none;
