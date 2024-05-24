@@ -2,7 +2,9 @@ body {
   background-color: rgb(48, 3, 48, 0.2);
   font-family: "Briem Hand", cursive, sans-serif;
 }
-
+a {
+  color: rgb(48, 3, 48, 0.6);
+}
 .main-app {
   background: white;
   max-width: 600px;
