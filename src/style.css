@@ -1,5 +1,4 @@
 body {
-  /* background-color: rgb(48, 3, 48, 0.2); */
   background-image: url("../src/images/mountains.jpg");
   background-size: cover; /* Adjusts the image to cover the entire background */
   background-position: center; /* Centers the image */
@@ -10,20 +9,20 @@ body {
   min-height: 100vh;
 }
 a {
-  color: rgb(48, 3, 48, 0.6);
+  color: rgb(236, 226, 236);
 }
 .weather-app {
-  background: white;
+  background: rgba(41, 96, 124, 0.6);
   max-width: 600px;
   margin: 45px auto;
-  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  box-shadow: 0 30px 50px rgba(36, 26, 59, 0.08);
   border-radius: 16px;
   padding: 30px;
 }
-header {
-  border-bottom: 1px solid rgb(48, 3, 48, 0.2);
+/* header {
+  border-bottom: 1px solid rgb(48, 3, 48, 0.3);
   padding: 0 0 30px 0;
-}
+} */
 .weather-app-temperature-container {
   display: flex;
 }
@@ -34,17 +33,20 @@ header {
 .weather-app-temperature-value {
   font-size: 88px;
   margin-left: 10px;
+  color: rgb(236, 226, 236);
 }
 .weather-app-temperature-unit {
   margin-top: 30px;
   font-size: 28px;
+  color: rgb(236, 226, 236);
 }
 .search-form-input {
-  background-color: rgb(48, 3, 48, 0.2);
+  background-color: rgb(48, 3, 48, 0.5);
   border: none;
   border-radius: 6px;
   width: 80%;
   font-size: 16px;
+  font-weight: bolder;
   padding: 10px 15px;
 }
 .search-form-button {
@@ -65,19 +67,21 @@ header {
   margin-bottom: 0px;
   font-size: 38px;
   line-height: 48px;
+  color: rgb(236, 226, 236);
 }
 .weather-app-details {
   font-size: 16px;
   line-height: 20px;
-  color: rgb(48, 3, 48, 0.5);
+  color: rgb(236, 226, 236);
 }
 .weather-app-details strong {
-  color: rgba(87, 19, 87);
+  color: black;
+  font-weight: bolder;
 }
 footer {
-  border-top: 1px solid rgb(48, 3, 48, 0.2);
-  padding: 30px 0 0 0;
+  border-top: 1px solid rgb(48, 3, 48, 0.3);
+  padding: 0;
   text-align: center;
   font-size: 13px;
-  color: rgb(48, 3, 48, 0.5);
+  color: rgb(236, 226, 236);
 }
