@@ -54,7 +54,8 @@ header {
   justify-content: space-between;
 }
 .weather-app-city {
-  margin: 0;
+  margin-top: 25px;
+  margin-bottom: 0px;
   font-size: 38px;
   line-height: 48px;
 }
