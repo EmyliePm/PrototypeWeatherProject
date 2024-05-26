@@ -77,6 +77,18 @@ a {
   color: black;
   font-weight: bolder;
 }
+.weather-forecast {
+  margin-top: 20px;
+  /* text-align: center; */
+  color: white;
+}
+.weather-forecast-date {
+  font-size: 16px;
+  opacity: 0.6;
+}
+.weather-forecast-temperature-min {
+  opacity: 0.4;
+}
 footer {
   border-top: 1px solid rgb(48, 3, 48, 0.3);
   padding: 0;
