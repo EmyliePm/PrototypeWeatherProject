@@ -94,6 +94,14 @@ a {
   display: block;
   margin: 0 auto;
 }
+.weather-forecast-temperatures {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.weather-forecast-temperature-max {
+  padding: 0 7px;
+}
 .weather-forecast-temperature-min {
   opacity: 0.6;
 }
