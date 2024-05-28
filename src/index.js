@@ -67,8 +67,6 @@ function formatDay(timestamp) {
   return days[date.getDay()];
 }
 function displayForecast(response) {
-  console.log(response.data);
-
   let forecastHtml = ``;
   response.data.daily.forEach(function (day, index) {
     if (index < 5) {

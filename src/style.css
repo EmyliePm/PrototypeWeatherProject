@@ -1,8 +1,8 @@
 body {
   background-image: url("../src/images/mountains.jpg");
-  background-size: cover; /* Adjusts the image to cover the entire background */
-  background-position: center; /* Centers the image */
-  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   font-family: "Briem Hand", cursive, sans-serif;
   display: flex;
   flex-direction: column;
