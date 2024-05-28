@@ -52,20 +52,27 @@ function handleSearchSubmit(event) {
 }
 
 function displayForecast() {
-  let weatherForecast = document.querySelector("#weather-forecast");
-  weatherForecast.innerHTML = `
-      <div class="weather-forecast-day"> Tues
-        <div class="weather-forecast-date"></div>
+  let forecastElement = document.querySelector("#weather-forecast-container");
+
+  let days = ["Tue", "Wed", "Thur", "Fri", "Sat"];
+  let forecastHtml = ``;
+  days.forEach(function (day) {
+    forecastHtml += `
+      <div class="weather-forecast-day"> 
+        <div class="weather-forecast-date">${day}</div>
         <div class="weather-forecast-icon">🌤️</div>
         <div class="weather-forecast-temperatures">
           <div class="weather-forecast-temperature-max">
             <strong>15º</strong>
-          </div>
-          <div class="weather-forecast-temperature-min">9º</div>
+             <span class="weather-forecast-temperature-min">9º</span>
+             </div>
         </div>
       </div>
     `;
+  });
+  forecastElement.innerHTML = forecastHtml;
 }
+
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
